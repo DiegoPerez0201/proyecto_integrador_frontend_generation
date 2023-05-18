@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: rgb(207,232,255);
+    background: linear-gradient(90deg, rgba(207,232,255,1) 0%, rgba(159,214,245,1) 100%);
+}
+
+.navbar {
+    display: flex;
+    background-color: #CCD5AE;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex-body {
+    background-image: url("./components/img/field_pixel.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 100%;
+}
+
+.menu {
+    background-color: #f6f3ee7f;
+    height: 100vh;
+    width: 40vh;
+}
+
+.card-title {
+    background-color: #F6F3EE;
+}
+
+.carousel-item-survey {
+    height: 70vh;
+    background-color: #F6F3EE;
+    border: none;
+    border-radius: 20px;
+}
+
+.survey .carousel-control-next-icon, .survey .carousel-control-prev-icon {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: #CCD5AE;
+}
+.survey .carousel-control-next, .survey .carousel-control-prev{
+    width: 7vh;
+    height: 7vh;
+    margin-top: 7vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.btn-primary {
+    background-color: #CCD5AE;
+    border: 1px solid #CCD5AE;
+}
+
+.btn-primary:hover {
+    background-color: #bbc794;
+    border: 1px solid #CCD5AE;
+}
+
+.login {
+    background-color: #53729a68;
+    border-radius: 5px;
+}
+
+.empty-space {
+    margin: 150px;
+    height: 20vh;
+}
+
+.empty-space2 {
+    margin: 150px;
+    height: 40vh;
+}
+
+.btn-secondary {
+    background-color: #bbc794;
+    border: 1px solid #bbc794;
+}
+
+.btn-secondary:hover {
+    background-color: #a4b371;
+    border: 1px solid #a2b562;
+}
+
+.carousel-item-survey p{
+    height: 12vh;
+    width: 80vh;
+    margin: 0 auto;
+    font-size: large;
+}
+.survey-options{
+    margin-top: 4vh;
+}
+.survey-send{
+    color: black;
+}
